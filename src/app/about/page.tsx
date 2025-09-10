@@ -264,75 +264,63 @@ export default function AboutPage() {
           </motion.section>
 
           <motion.section
-            ref={experienceRef}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.4 }}
-            className="mb-16 p-8 md:p-12 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500"
-          >
-            <div className="flex items-center gap-4 mb-8">
-              <div className="p-3 bg-gradient-to-r from-[#6B76DD] to-[#8A6BDD] rounded-full">
-                <FaRocket className="text-white text-xl" />
-              </div>
-              <h2 className="text-3xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#6B76DD] to-[#8A6BDD]">
-                Experience
-              </h2>
-            </div>
+  ref={experienceRef}
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.7, delay: 0.4 }}
+  className="mb-16 p-8 md:p-12 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500"
+>
+  <div className="flex items-center gap-4 mb-8">
+    <div className="p-3 bg-gradient-to-r from-[#6B76DD] to-[#8A6BDD] rounded-full">
+      <FaRocket className="text-white text-xl" />
+    </div>
+    <h2 className="text-3xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#6B76DD] to-[#8A6BDD]">
+      Experience
+    </h2>
+  </div>
 
-            <div className="grid grid-cols-1 gap-6">
-              <div className="bg-gradient-to-r from-[#6B76DD]/10 to-blue-100/50 dark:from-[#6B76DD]/20 dark:to-gray-700/30 p-8 rounded-2xl border border-[#6B76DD]/20">
-                <h3 className="text-2xl font-semibold text-gray-800 dark:text-gray-100 mb-3">
-                  Data Analytics - Microsoft Power BI Trainee
-                </h3>
-                <p className="text-blue-500 dark:text-blue-00 mb-2 text-lg">
-                  Digital Egypt Pioneers Initiative (DEPI)
-                </p>
-                <p className="text-gray-600 dark:text-gray-300 mb-2 text-lg">
-                  Collected, analyzed, and visualized data from various sources using Power BI, Tableau, and Azure services to uncover insights and support business decisions.
-                <div className="bg-gradient-to-r from-[#6B76DD]/10 to-blue-100/50 dark:from-[#6B76DD]/20 dark:to-gray-700/30 p-8 rounded-2xl border border-[#6B76DD]/20">
-  <h3 className="text-2xl font-semibold text-gray-800 dark:text-gray-100 mb-3">
-    Data Analytics - Microsoft Power BI Trainee
-  </h3>
-  <p className="text-blue-500 dark:text-blue-00 mb-2 text-lg">
-    Digital Egypt Pioneers Initiative (DEPI)
-  </p>
-  <p className="text-gray-600 dark:text-gray-300 mb-2 text-lg">
-    Collected, analyzed, and visualized data from various sources using Power BI, Tableau, and Azure services to uncover insights and support business decisions.
-    <ul className="space-y-2 mt-2">
-      <li className="text-gray-600 dark:text-gray-300 flex items-start">
-        <span className="text-blue-500 mt-1">•</span>
-        Developed interactive dashboards and reports to visualize key trends.
-      </li>
-      <li className="text-gray-600 dark:text-gray-300 flex items-start">
-        <span className="text-blue-500 mt-1">•</span>
-        Collaborated with stakeholders to translate business needs into technical requirements.
-      </li>
-      <li className="text-gray-600 dark:text-gray-300 flex items-start">
-        <span className="text-blue-500 mt-1">•</span>
-        Ensured data integrity by identifying and resolving data quality issues.
-      </li>
-    </ul>
-  </p>
-  <p className="text-gray-500 dark:text-gray-400">Jun 2025 – Dec 2025</p>
-</div>
-                </p>
-                <p className="text-gray-500 dark:text-gray-400">Jun 2025 – Dec 2025</p>
-              </div>
+  <div className="grid grid-cols-1 gap-6">
+    <div className="bg-gradient-to-r from-[#6B76DD]/10 to-blue-100/50 dark:from-[#6B76DD]/20 dark:to-gray-700/30 p-8 rounded-2xl border border-[#6B76DD]/20">
+      <h3 className="text-2xl font-semibold text-gray-800 dark:text-gray-100 mb-3">
+        Data Analytics - Microsoft Power BI Trainee
+      </h3>
+      <p className="text-blue-500 dark:text-blue-00 mb-2 text-lg">
+        Digital Egypt Pioneers Initiative (DEPI)
+      </p>
+      <p className="text-gray-600 dark:text-gray-300 mb-2 text-lg">
+        Collected, analyzed, and visualized data from various sources using Power BI, Tableau, and Azure services to uncover insights and support business decisions.
+        <ul className="space-y-2 mt-2">
+          <li className="text-gray-600 dark:text-gray-300 flex items-start">
+            <span className="text-blue-500 mt-1">•</span>
+            Developed interactive dashboards and reports to visualize key trends.
+          </li>
+          <li className="text-gray-600 dark:text-gray-300 flex items-start">
+            <span className="text-blue-500 mt-1">•</span>
+            Collaborated with stakeholders to translate business needs into technical requirements.
+          </li>
+          <li className="text-gray-600 dark:text-gray-300 flex items-start">
+            <span className="text-blue-500 mt-1">•</span>
+            Ensured data integrity by identifying and resolving data quality issues.
+          </li>
+        </ul>
+      </p>
+      <p className="text-gray-500 dark:text-gray-400">Jun 2025 – Dec 2025</p>
+    </div>
 
-              <div className="bg-gradient-to-r from-[#6B76DD]/10 to-blue-100/50 dark:from-[#6B76DD]/20 dark:to-gray-700/30 p-8 rounded-2xl border border-[#6B76DD]/20">
-                <h3 className="text-2xl font-semibold text-gray-800 dark:text-gray-100 mb-3">
-                  R&D member
-                </h3>
-                <p className="text-blue-500 dark:text-blue-00 mb-2 text-lg">
-                  IEEE || HSC
-                </p>
-                <p className="text-gray-600 dark:text-gray-300 mb-2 text-lg">
-                  Bridged the gap between technical innovation and chapter excellence. Researched and developed emerging technology prototypes while simultaneously analyzing chapter operations to implement strategic improvements, boost member engagement, and strengthen our community impact.
-                </p>
-                <p className="text-gray-500 dark:text-gray-400">Feb 2025 – Oct 2025</p>
-              </div>
-            </div>
-          </motion.section>
+    <div className="bg-gradient-to-r from-[#6B76DD]/10 to-blue-100/50 dark:from-[#6B76DD]/20 dark:to-gray-700/30 p-8 rounded-2xl border border-[#6B76DD]/20">
+      <h3 className="text-2xl font-semibold text-gray-800 dark:text-gray-100 mb-3">
+        R&D member
+      </h3>
+      <p className="text-blue-500 dark:text-blue-00 mb-2 text-lg">
+        IEEE || HSC
+      </p>
+      <p className="text-gray-600 dark:text-gray-300 mb-2 text-lg">
+        Bridged the gap between technical innovation and chapter excellence. Researched and developed emerging technology prototypes while simultaneously analyzing chapter operations to implement strategic improvements, boost member engagement, and strengthen our community impact.
+      </p>
+      <p className="text-gray-500 dark:text-gray-400">Feb 2025 – Oct 2025</p>
+    </div>
+  </div>
+</motion.section>
 
           <motion.section
             ref={contactRef}
